@@ -1,10 +1,10 @@
-var path = require('path');
-var webpack = require('webpack');
+const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
   devtool: 'source-map',
   entry: [
-    './client/reduxstagram'
+    './src/reduxstagram'
   ],
   output: {
     path: path.join(__dirname, 'dist'),
